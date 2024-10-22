@@ -1,0 +1,75 @@
+[
+  {
+    "category": "history",
+    "id": 1,
+    "question": "The United States bought Alaska from which country?",
+    "answers": [
+      "China",
+      "Russia",
+      "Poland"
+    ],
+    "correctAnswer": "Russia"
+  },
+  {
+    "category": "history",
+    "id": 2,
+    "question": "How many years did the 100 years war last?",
+    "answers": [
+      "116",
+      "100",
+      "95"
+    ],
+    "correctAnswer": "116"
+  },
+  {
+    "category": "history",
+    "id": 3,
+    "question": "One of the ancient world wonders, the “Hanging Gardens,” was found in which city?",
+    "answers": [
+      "Rome",
+      "Atena",
+      "Babylon"
+    ],
+    "correctAnswer": "Babylon"
+  },
+  {
+    "category": "science",
+    "id": 4,
+    "question": "How many colors are in the rainbow?",
+    "answers": [
+      "7",
+      "9",
+      "5"
+    ],
+    "correctAnswer": "7"
+  },
+  {
+    "category": "science",
+    "id": 5,
+    "question": "What is the hardest natural substance on Earth? ",
+    "answers": [
+      "Diamond",
+      "Carbon",
+      "Iron"
+    ],
+    "correctAnswer": "Diamond"
+  },
+  {
+    "category": "science",
+    "id": 6,
+    "question": "What is the largest desert in the world?",
+    "answers": [
+      "Sahara",
+      "Antartica",
+      "Gobi"
+    ],
+    "correctAnswer": "Antartica"
+  },
+  {
+    "id": 82,
+    "category": "",
+    "question": "",
+    "answers": [],
+    "correctAnswer": ""
+  }
+]

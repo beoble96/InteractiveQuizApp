@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html, body {
+  overflow-x: hidden;
+  max-width: 740px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  
+}
+
+main {
+  padding: 1rem;
+} 
+h1{
+  font-size: large;
+}
+h1, h2 {
+  color: rgb(37, 87, 87);
+  cursor: pointer;
+  margin: 7px 0;
+  padding: 12px 8px;font-size: 1.8rem;
+}
+
+h3 {
+  padding-bottom: 2rem;
+  color: #000105;
+  font-size: 2rem;
+}
+
+button {
+  padding: 16px 8px;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: lightblue;
+  color: #f8f8f8;
+}
+
+.btn-disabled {
+  background-color: lightgray;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 9px 0;
+  padding: 16px 8px;
+  color: #000105;
+  border: 1px solid lightskyblue;
+}
+
+.li-hover:hover {
+  background-color: #d8d8d8;
+  columns: #fff;
+}
+
+.li-correct {
+  color: #fff;
+  background-color: green;
+}
+.li-wrong {
+  color: #fff;
+  background-color: red;
+}
+
+.container {
+  max-width: 740px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.quiz-container {
+ 
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+ 
+}
+
+.container p {
+  padding: 8px 0;
+}
+.button{
+    
+  padding: 10px 8px;
+
+  margin: 12px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: lightblue;
+  color: #f8f8f8;
+  }
+  .formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 680px; 
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    color: rgb(37, 87, 87);
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(37, 87, 87);
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+   
+    border-radius: 4px;
+  }
+  label{
+    color: rgb(37, 87, 87);
+  }
+  
